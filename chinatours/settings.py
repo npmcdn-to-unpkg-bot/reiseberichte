@@ -88,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'lrb$reiseberichte',
         'USER': 'lrb',
-        'PASSWORD': 'DB_PASSWORD',
+        'PASSWORD': 'sdasas22',
         'HOST': 'lrb.mysql.pythonanywhere-services.com',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
