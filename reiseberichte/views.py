@@ -63,7 +63,7 @@ def tagseite(request, datum, reise_kurzel, tag):
 class add_day(CreateView):
     model = Tag
     fields = ['reisetag', 'foto', 'beschreibung']
-    reise_id = 1
+
 
 """
     class TagForm(CreateView, request, reise_kurzel):
