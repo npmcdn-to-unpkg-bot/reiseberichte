@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+
+<!-- start: Meta -->
+<meta charset="utf-8">
+<title>PinWall by creativeLabs</title> 
+<meta name="description" content="PinWall Theme"/>
+<meta name="keywords" content="Template, Theme, web, html5, css3" />
+<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1"/>
+<!-- end: Meta -->
+
+<!-- start: Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- end: Mobile Specific -->
+
+<!-- start: Facebook Open Graph -->
+<meta property="og:title" content=""/>
+<meta property="og:description" content=""/>
+<meta property="og:type" content=""/>
+<meta property="og:url" content=""/>
+<meta property="og:image" content=""/>
+<!-- end: Facebook Open Graph -->
+
+<!-- start: CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/colors/yellow.css" id="colors">
+<link rel="stylesheet" type="text/css" href="css/social_icons.css">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+<!-- end: CSS -->
+
+<!-- start: Java Script -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/flexslider.js"></script>
+<script src="js/selectnav.js"></script>
+<script src="js/twitter.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/effects.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/jquery.gmap.min.js"></script>
+<script def src="js/template_functions.js"></script>
+<!-- end: Java Script -->
+
+</head>
+<body>
+
+<!-- start: Header -->
+<div id="header">
+	
+	<!-- start: Container -->
+	<div class="container">
+
+		<!-- start: Logo -->
+		<div class="one-third column">
+			<div id="logo">
+				<a href="#"><img src="images/logo.png" alt="logo" /></a>
+			</div>
+		</div>
+		<!-- end: Logo -->
+
+		<!-- start: Social Links -->
+		<div class="two-thirds column">
+			<div id="social-links">
+				<ul class="social-bookmarks">
+					<li class="deviantart"><a href="#">deviantart</a></li>
+					<li class="dribbble"><a href="#">dribbble</a></li>
+					<li class="facebook"><a href="">facebook</a></li>
+					<li class="flickr"><a href="">flickr</a></li>
+					<li class="github"><a href="#">github</a></li>
+					<li class="pinterest"><a href="#">pinterest</a></li>
+					<li class="twitter"><a href="#">twitter</a></li>
+					<li class="vimeo"><a href="#">vimeo</a></li>
+					<li class="youtube"><a href="#">youtube</a></li>
+				</ul>
+				<div id="search">
+					<input class="search-form" name="search-form" />
+				</div>
+			</div>	
+		</div>
+		<!-- end: Social Links -->
+
+	</div>
+	<!-- end: Container -->
+
+</div>
+<!-- end: Header -->
+
+<!-- start: Navigation Wrapper -->
+<div id="navigation-wrapper">
+	
+	<!-- start: Contact -->
+	<div id="contact">
+		
+		<!-- start: Map -->
+		<div class="sixteen columns google-map">
+			
+			<!-- start: Close Contacts Button -->
+			<a href="#" id="close-contact">Close</a>
+			<!-- end: Close Contacts Button -->
+			
+			<!-- starts: Google Maps -->
+			<div id="googlemaps" class="google-map google-map-full" style="height:250px; margin-bottom: 20px"></div>
+			<!-- end: Google Maps -->
+			
+		</div>
+		<!-- end: Map -->	
+		
+		<!-- start: Container -->
+		<div class="container">
+			
+			<div class="four columns">
+				<!-- start: Company Name -->
+				<div id="contact-information">
+					<h2>Creative Labs</h2>
+					<p>---</p>
+					<p>M: +48 123 456 789</p>
+					<p>P: +48 32 123 45 67</p>
+					<p>@: mail@post.com</p>
+					
+				</div>
+				<!-- end: Company Name -->
+			</div>	
+			
+			<div class="twelve columns">
+			<!-- start: Contact Form -->
+			<div id="contact-form">
+				<form method="post" action="contact.php">
+					<div class="contact-form-left">
+						<div class="field">
+							<label>Name:</label>
+							<input type="text" name="name" class="text" />
+						</div>
+
+						<div class="field">
+							<label>Email: <span>*</span></label>
+							<input type="text" name="email" class="text" />
+						</div>
+						<div class="field">
+							<input type="button" id="send" value="Send Message"/>
+							<div class="loading"></div>
+						</div>
+					</div>
+					<div class="contact-form-right">	
+						<div class="field">
+							<label>Message: <span>*</span></label>
+							<textarea name="message" class="text textarea" ></textarea>
+						</div>
+					</div>	
+				</form>
+			</div>
+			<!-- end: Contact Form -->
+			</div>
+				
+		</div>
+		<!-- end: Container -->	
+	
+	</div>	
+	<!-- end: Contact -->
+	
+	<!-- start: Contact Fake -->
+	<div id="contact-fake">
+		
+		
+	</div>
+	<!-- end: Contact Fake -->	
+				
+	<!-- start: Container -->
+	<div class="container">
+		
+		<div id="logo-small"></div>
+		<!-- start: Navigation -->
+		<div id="navigation">
+			<ul id="nav">
+
+				<li><a href="index.html">Start</a></li>
+				
+				<li><a href="#">Categories</a>
+					<ul>
+					<li><a href="videos.html">Videos</a></li>
+					<li><a href="pictures.html">Pictures</a></li>
+					<li><a href="quotes.html">Quotes</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#">How it works</a>
+					<ul>
+					<li><a href="shortcodes.html">Shortcodes</a></li>	
+					<li><a href="full_width.html">Full Width</a></li>
+					<li><a href="sidebar.html">Sidebar</a></li>
+					<li><a href="post.html">Single Post</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="pricing_tables.html">Pricing Tables</a></li>
+					</ul>
+				</li>
+
+				<li><a href="about.html">About</a></li>
+				<li><a class="contact-toggle" href="#">Contact</a></li>
+
+			</ul>
+
+		</div>
+		<!-- end: Navigation --> 
+		<div class="clear"></div>
+
+	</div>
+	<!-- end: Container -->
+
+</div>
+<!-- end: Navigation Wrapper--> 
+	
+
+<!-- start: Wrapper -->
+<div id="wrapper">
+
+	<!-- start: Container -->
+	<div class="container">
+		<!-- start: Page Title Icon-->
+		<div id="page-title-icon"></div>
+		<div id="page-title-icon-inner">
+			<i class="ico-camera ico-white"></i>
+		</div>
+		<!-- end: Page Title Icon-->
+		<!-- start: Page Title -->
+		<section id="page-title">
+			<h2>Category: <span>Pictures</span></h2>
+		</section>
+	</div>
+	<!-- end: Container  -->	
+
+<!-- start: Container -->	
+<div class="container">
+	
+	<!-- start: Portfolio -->
+	<div id="portfolio-wrapper">
+					
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo1.jpg" rel="image" title="Title"><img src="images/photo1.jpg" alt=""/>
+					<div class="image-overlay-zoom"></div>
+				</a>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo2.jpg" rel="image" title="Title"><img src="images/photo2.jpg" alt=""/>
+					<div class="image-overlay-zoom"></div>
+				</a>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>	
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo3.jpg" rel="image" title="Title"><img src="images/photo3.jpg" alt=""/>
+					<div class="image-overlay-zoom"></div>
+				</a>	
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>	
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo4.jpg" rel="image" title="Title"><img src="images/photo4.jpg" alt=""/>					<div class="image-overlay-zoom"></div>
+				</a>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>	
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo5.jpg" rel="image" title="Title"><img src="images/photo5.jpg" alt=""/><div class="image-overlay-zoom"></div>
+				</a>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>	
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo6.jpg" rel="image" title="Title"><img src="images/photo6.jpg" alt=""/>
+					<div class="image-overlay-zoom"></div>
+				</a>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>	
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="images/photo7.jpg" rel="image" title="Title"><img src="images/photo7.jpg" alt=""/><div class="image-overlay-zoom"></div></a>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo8.jpg" rel="image" title="Title"><img src="images/photo8.jpg" alt=""/><div class="image-overlay-zoom"></div>
+				</a>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>	
+			</div>
+		</div>
+				
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo9.jpg" rel="image" title="Title"><img src="images/photo9.jpg" alt=""/>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo10.jpg" rel="image" title="Title"><img src="images/photo10.jpg" alt=""/>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo11.jpg" rel="image" title="Title"><img src="images/photo11.jpg" alt=""/>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="one-third column portfolio-item">
+			<div class="picture">
+				<a href="images/photo12.jpg" rel="image" title="Title"><img src="images/photo12.jpg" alt=""/>
+				<div class="post-meta">
+					<span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+	<!-- end: Portfolio -->
+		
+</div>
+<!-- end: Container -->
+
+</div>
+<!-- end: Wrapper -->
+
+<!-- start: Footer -->
+
+<div id="footer">
+	<!-- start: Container -->
+	<div class="container">
+	
+		<!-- start: About -->
+		<div class="one-third column">
+			<h3>About Us</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<!-- end: About -->
+		
+		
+		<!-- start: Photo Stream -->
+		<div class="one-third column">
+			<h3>Photo Stream</h3>
+			<div class="flickr-widget">
+				<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=s&layout=x&source=user&user=29609591@N08"></script>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- end: Photo Stream -->
+		
+		<!-- start: Latest Tweets -->
+		<div class="one-third column">
+			<h3>Latest Tweets</h3>
+			<ul id="twitter"></ul>
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+					$.getJSON('http://api.twitter.com/1/statuses/user_timeline/envato.json?count=3&callback=?', function(tweets){
+					$("#twitter").html(tz_format_twitter(tweets));
+					}); });
+				</script>
+			<div class="clear"></div>
+		</div>
+		<!-- end: Latest Tweets -->
+		
+	</div>
+	<!-- end: Container  -->
+
+</div>
+<!-- end: Footer -->
+
+<!-- start: Under Footer -->
+<div id="under-footer">
+	
+	<!-- start: Container -->
+	<div class="container">
+				
+		<div id="under-footer-text">
+			<div class="sixteen columns">
+				<h2>we really love beautiful design</h2>	
+			</div>
+		</div>
+		
+		<div id="under-footer-copyright">
+			<div class="sixteen columns">
+				<p>© Copyright 2012 by <a href="#">creativeLabs</a>. All rights reserved.</p>		
+			</div>
+		</div>
+		
+		<div id="under-footer-logo">
+			<div class="sixteen columns">
+				<a href="#"><img src="images/logo-small.png" alt="logo" /></a>	
+				<div id="scroll-top-top"><a href="#"></a></div>
+			</div>
+		</div>	
+
+	</div>
+	<!-- end: Container  -->
+
+</div>
+<!-- end: Under Footer -->
+
+</body>
+</html>

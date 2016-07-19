@@ -1,0 +1,181 @@
+{% extends 'reiseberichte/base.html' %}
+{% load staticfiles %}
+
+{% block body %}
+	<!-- start: Portfolio -->
+	<div id="portfolio-wrapper">
+        <div class="one-third column portfolio-item">
+			<div class="reiseliste">
+						<h1>Aktuelle Reisen</h1>
+                        Hier kommen die aktuellen Reisen rein
+                {{ unterwegs }}
+			</div>
+		</div>
+        {% for termin in termin %}
+            <div class="one-third column portfolio-item">
+                <div class="picture"><a href="{% url 'terminseite' datum=termin.reisebeginn|date:"ymd" reise_kurzel=termin.reisename.reisekurzel %}" title="Title"><img src="{% if termin.get_latest_foto.foto %}{{ termin.get_latest_foto.foto.url }}{% else %}{{ termin.reisename.reiseheader.url }}{% endif %}" alt=""/><div class="image-overlay-link"></div></a>
+                    <div class="item-description alt">
+                        <h5><a href="{% url 'terminseite' datum=termin.reisebeginn|date:"ymd" reise_kurzel=termin.reisename.reisekurzel %}">{{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
+                        <p>{{ termin }}
+                            {% if termin.get_latest_foto.foto %}
+                            {{ termin.get_latest_foto.beschreibung }}
+                            {% else %}
+                            Diese Reisegruppe ist gerade auf dem Weg nach China.
+                        {% endif %}
+                        </p>
+                    </div>
+                    <div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+                </div>
+            </div>
+        {% endfor %}
+
+		<div class="one-third column portfolio-item">
+			<div class="quotes">
+				<div class="quote">
+                    <form id="favorite">
+                        <input class="" type="checkbox" id="favorite">
+
+                    </form>
+
+                </div>
+				<div class="author">
+					- Steve Jobs -
+				</div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="project.html" title="Title"><img src="{% static 'reiseberichte/' %}images/photo1.jpg" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="item-description alt">
+					<h5><a href="project.html">Project no. 1</a></h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+					</p>
+				</div>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="{% static 'reiseberichte/' %}images/photo9.jpg" rel="image" title="Title"><img src="{% static 'reiseberichte/' %}images/photo9.jpg" alt=""/><div class="image-overlay-zoom"></div></a>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="{% static 'reiseberichte/' %}images/photo2.jpg"title="Title"><img src="{% static 'reiseberichte/' %}images/photo2.jpg" alt=""/><div class="image-overlay-zoom"></div></a>
+			<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="project.html" title="Title">
+				<img src="{% static 'reiseberichte/' %}images/photo3.jpg" alt=""/>
+				<div class="image-overlay-link"></div></a>
+					<div class="item-description alt">
+						<h5><a href="project.html">Project no. 3</a></h5>
+						<p>
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+					</p>
+				</div>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="{% static 'reiseberichte/' %}images/photo4.jpg" rel="image" title="Title"><img src="{% static 'reiseberichte/' %}images/photo4.jpg" alt=""/><div class="image-overlay-zoom"></div></a>
+			<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="video embed">
+				<iframe src="http://player.vimeo.com/video/3538565?portrait=0&color=ffffff" width="480" height="256" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="project.html" title="Title"><img src="{% static 'reiseberichte/' %}images/photo6.jpg" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="item-description alt">
+					<h5><a href="project.html">Project no. 6</a></h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+					</p>
+				</div>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="{% static 'reiseberichte/' %}images/photo7.jpg" rel="image" title="Title"><img src="{% static 'reiseberichte/' %}images/photo7.jpg" alt=""/><div class="image-overlay-zoom"></div></a>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="project.html" title="Title"><img src="{% static 'reiseberichte/' %}images/photo8.jpg" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="item-description alt">
+					<h5><a href="project.html">Project no. 8</a></h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+					</p>
+				</div>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item scenery">
+			<div class="quotes">
+				<div class="quote">
+					“Innovation distinguishes between a leader and a follower.”
+				</div>
+				<div class="author">
+					- Steve Jobs -
+				</div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="quotes">
+				<div class="quote">
+				“Visual design is often the polar opposite of engineering: trading hard edges for subjective decisions based on gut feelings and personal experiences. It’s messy, unpredictable, and notoriously hard to measure. The apparently erratic behavior of artists drives engineers bananas. Their decisions seem arbitrary and risk everything with no guaranteed benefit.”
+				</div>
+				<div class="author">
+					- Scott Stevenson -
+				</div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="project.html" title="Title"><img src="{% static 'reiseberichte/' %}images/photo10.jpg" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="item-description alt">
+					<h5><a href="project.html">Project no. 10</a></h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+					</p>
+				</div>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="project.html" title="Title"><img src="{% static 'reiseberichte/' %}images/photo11.jpg" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="item-description alt">
+					<h5><a href="project.html">Project no. 11</a></h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+					</p>
+				</div>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+		<div class="one-third column portfolio-item">
+			<div class="picture"><a href="{% static 'reiseberichte/' %}images/photo12.jpg" rel="image" title="Title"><img src="{% static 'reiseberichte/' %}images/photo12.jpg" alt=""/><div class="image-overlay-zoom"></div></a>
+				<div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+			</div>
+		</div>
+
+	</div>
+	<!-- end: Portfolio -->
+{% endblock %}
