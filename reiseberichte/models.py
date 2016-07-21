@@ -1,6 +1,6 @@
 from django.db import models
+from uuslug import uuslug
 from django.conf import settings
-from django.utils import timezone
 from django.core.urlresolvers import reverse
 from datetime import timedelta, datetime, date
 
@@ -21,6 +21,14 @@ class Reise(TimeStampedModel):
     link = models.CharField(max_length=500)
     dauer = models.IntegerField()
     reiseheader = models.ImageField(verbose_name="Titelbild der Reise", default="media/China_mit_Yangtze.jpg")
+    slug = models.CharField(max_length=200, editable=False)
+
+    def __unicode__(self):
+        return self.name
+
+    def save(self, *args, **kwargs):
+        self.slug = uuslug(self.reisename, instance=self)
+        super(Reise, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.reisename
@@ -58,22 +66,28 @@ class Termin(TimeStampedModel):
     objects=models.Manager()
     reiseende = models.DateField(editable=False)
     favorite = models.BooleanField(editable=False, default=False)
+    slug = models.TextField(max_length=100, editable=False)
 
-    # Berechnung des Reiseendes
+    # Berechnung des Reiseendes und Slug aus Reisebeginn z.B. 160520
     def save(self, *args, **kwargs):
         self.reiseende = self.reisebeginn + timedelta(days=self.reisename.dauer)
+        datum = datetime.strftime(self.reisebeginn, "%y%m%d")
+        self.slug = uuslug(datum, instance=self)
         super(Termin, self).save(*args, **kwargs)
 
     # Methode, um den neuesten zugeordneten Tag zum Termin zu holen, ausgehend vom Foto
     def get_latest_foto(self):
         return Tag.objects.filter(reisedatum=self).latest("foto")
 
-    # PLural Anzeige im Admin
+    # Plural Anzeige im Admin
     class Meta:
         verbose_name_plural = "Termine"
 
     def __str__(self):
-        return self.reisename.reisekurzel+" - "+str(self.reisebeginn)
+        return self.reisename.reisekurzel+" - "+ self.slug
+
+    def __unicode__(self):
+        return self.reisebeginn
 
 
 class Tag(TimeStampedModel):
@@ -87,7 +101,7 @@ class Tag(TimeStampedModel):
         datum = str(self.reisedatum)
         tag = str(self.reisetag)
         kurzel = self.reise.reisekurzel
-        return kurzel + datum + ' Tag ' + tag
+        return kurzel + ' Tag ' + tag
 
     class Meta:
         verbose_name_plural = "Tage"

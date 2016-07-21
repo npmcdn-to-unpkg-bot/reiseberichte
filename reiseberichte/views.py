@@ -1,9 +1,12 @@
-from django.http import Http404, HttpResponse
-from django.shortcuts import render
+from .forms import TagForm
 from .models import Reise, Termin, Tag
-from django.views.generic import CreateView
-from django.template import loader
 from datetime import date, timedelta, timezone, datetime
+from django.contrib import messages
+from django.http import Http404, HttpResponse
+from django.shortcuts import render, redirect, get_object_or_404
+from django.template import loader
+from django.views.generic import CreateView
+
 
 
 # Alle Reisen, die unterwegs sind, anzeigen. Wenn es Fotos gibt, dann das neueste, sonst Standardbild der Reise
@@ -14,7 +17,6 @@ def uebersicht(request):
     today = date.today()
     # Endtermin auslesen!!!!
     unterwegs=Termin.objects.filter(reiseende__gte=today).filter(reisebeginn__lte=today)
-
     context = {
         'termin': termin,
         'tag': tag,
@@ -24,29 +26,21 @@ def uebersicht(request):
     return render(request, 'reiseberichte/uebersicht.html', context)
 
 
-def reiseseite(request, reise_kurzel):
-    try:
-        reise = Reise.objects.get(reisekurzel=reise_kurzel)
-    except Reise.DoesNotExist:
-        raise Http404("Diese Reise existiert nicht")
-    return HttpResponse("Reise " + reise_kurzel)
+def reiseseite(request, reise_slug):
+    reise = get_object_or_404(Reise, slug=reise_slug)
+    return HttpResponse("Reise " + str(reise))
 
 
-def terminseite(request, datum, reise_kurzel):
+def terminseite(request, reise_slug, termin_slug):
     try:
-        reise = Reise.objects.get(reisekurzel=reise_kurzel)
+        reise = Reise.objects.get(slug=reise_slug)
     except Reise.DoesNotExist:
         raise Http404("Diese Reise existiert nicht")
-    try:
-        reisedatum = datetime.strptime(datum, "%y%m%d")
-        abgleich = Termin.objects.get(reisebeginn=reisedatum)
-    except Termin.DoesNotExist:
-        raise Http404("Dieser Termin existiert nicht!")
-    termin_daten = abgleich
-    tage = Tag.objects.filter(reisedatum=abgleich)
+    termin = get_object_or_404(Termin, slug=termin_slug)
+    tage = termin.termine.all()
     context = {
-        'termin': termin_daten,
         'tage': tage,
+        'termin': termin,
     }
     return render(request, 'reiseberichte/termine.html', context)
 
@@ -60,10 +54,23 @@ def tagseite(request, datum, reise_kurzel, tag):
     }
     return render(request, 'reiseberichte/tagesansicht.html', context)
 
-class add_day(CreateView):
-    model = Tag
-    fields = ['reisetag', 'foto', 'beschreibung']
-
+def add_day(request, reise_slug, termin_slug):
+    if request.method == "POST":
+        form = TagForm(request.POST, request.FILES)
+        if form.is_valid():
+            tag = form.save(commit=False)
+            reise = Reise.objects.get(slug=reise_slug)
+            tag.reise = reise
+            termin = Termin.objects.get(slug=termin_slug)
+            tag.reisedatum = termin
+            tag_nr = termin.termine.count() + 1
+            tag.reisetag = tag_nr
+            tag.save()
+            messages.success(request, "Tag hinzugefügt!")
+            return redirect('terminseite', reise_slug=reise_slug, termin_slug=termin_slug)
+    else:
+        form = TagForm()
+    return render(request, 'reiseberichte/tag_form.html', {'form': form})
 
 """
     class TagForm(CreateView, request, reise_kurzel):

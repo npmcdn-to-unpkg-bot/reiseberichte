@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Tag hinzufügen</title>
-</head>
-<body>
+{% extends 'reiseberichte/base.html' %}
+{% block body %}
     <form class="" action="" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        {% include 'reiseberichte/form-template.html' %}
+        {{ form.as_p }}
         <button type="submit">Submit</button>
     </form>
-</body>
-</html>
+{% endblock %}

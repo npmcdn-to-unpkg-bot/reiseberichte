@@ -3,13 +3,25 @@
 
 {% block body %}
 	<!-- start: Portfolio -->
-	<div id="portfolio-wrapper">
+    <div id="portfolio-wrapper" xmlns="http://www.w3.org/1999/html">
+
+{% if messages %}
+<div class="sixteen columns">
+    {% for message in messages %}
+        <div class="notification {% if message.tags %}{{ message.tags }}{% endif %} closeable" id="notification_1" style="display: block;">
+			<p><span>Success! </span>{{ message }}</p>
+		<a class="close" href="#"></a></div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
     {% if tage %}
         {% for tage in tage %}
             <div class="one-third column portfolio-item">
                 <div class="picture"><a href="{{ tage.foto.url }}" title="Title"><img src="{{ tage.foto.url }}" alt=""/><div class="image-overlay-link"></div></a>
                     <div class="item-description alt">
-                        <h5><a href="{{ tage.foto.url }}">{{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.get_reiseende }}</a></h5>
+                        <h5><a href="{{ tage.foto.url }}">Tag {{ tage.reisetag }} - {{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
                         <p>{{ termin }}
                            {{ tage.beschreibung }}
                         </p>
@@ -22,8 +34,8 @@
             <div class="column portfolio-item">
                 <div class="picture"><a href="{{ termin.reisename.link }}" title="Title"><img src="{{ termin.reisename.reiseheader.url }}" alt=""/><div class="image-overlay-link"></div></a>
                     <div class="item-description alt">
-                        <h5><a href="{{ termin.reisename.link }}">{{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.get_reiseende }}</a></h5>
-                        <p>{{ termin }}
+                        <h5><a href="{{ termin.reisename.link }}">{{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
+                        <p>
                             Diese Reisegruppe ist gerade auf dem Weg nach China. Die ersten Reisebilder folgen in Kürze.
                         </p>
                     </div>
@@ -31,21 +43,19 @@
                 </div>
             </div>
     {% endif %}
-		<div class="one-third column portfolio-item">
+    {% if user.is_authenticated %}
+		<a href="{% url 'day_add' reise_slug=termin.reisename.slug termin_slug=termin.slug %}"> <div class="one-third column portfolio-item">
 			<div class="quotes">
 				<div class="quote">
-                    <form id="favorite">
-                        <input class="" type="checkbox" id="favorite">
-
-                    </form>
-
+                    <h1><span style="font-size: 5em; text-align: center" class="ico-circle-plus">  + </span></h1>
                 </div>
 				<div class="author">
 					- Steve Jobs -
 				</div>
 			</div>
 		</div>
-
+        </a>
+    {% endif %}
 		<div class="one-third column portfolio-item">
 			<div class="picture"><a href="project.html" title="Title"><img src="{% static 'reiseberichte/' %}images/photo1.jpg" alt=""/><div class="image-overlay-link"></div></a>
 				<div class="item-description alt">
