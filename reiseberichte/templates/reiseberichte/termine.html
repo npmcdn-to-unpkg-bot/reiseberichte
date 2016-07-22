@@ -4,58 +4,51 @@
 {% block body %}
 	<!-- start: Portfolio -->
     <div id="portfolio-wrapper" xmlns="http://www.w3.org/1999/html">
-
-{% if messages %}
-<div class="sixteen columns">
-    {% for message in messages %}
-        <div class="notification {% if message.tags %}{{ message.tags }}{% endif %} closeable" id="notification_1" style="display: block;">
-			<p><span>Success! </span>{{ message }}</p>
-		<a class="close" href="#"></a></div>
-    {% endfor %}
-</div>
-{% endif %}
-
-
-    {% if tage %}
-        {% for tage in tage %}
-            <div class="one-third column portfolio-item">
-                <div class="picture"><a href="{{ tage.foto.url }}" title="Title"><img src="{{ tage.foto.url }}" alt=""/><div class="image-overlay-link"></div></a>
-                    <div class="item-description alt">
-                        <h5><a href="{{ tage.foto.url }}">Tag {{ tage.reisetag }} - {{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
-                        <p>{{ termin }}
-                           {{ tage.beschreibung }}
-                        </p>
+        {% if messages %}
+        <div class="sixteen columns">
+            {% for message in messages %}
+                <div class="notification {% if message.tags %}{{ message.tags }}{% endif %} closeable" id="notification_1" style="display: block;">
+                    <p><span>Success! </span>{{ message }}</p>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% if tage %}
+            {% for tage in tage %}
+                <div class="one-third column portfolio-item">
+                    <div class="picture"><a href="{{ tage.foto.url }}" rel="image" title="Tag {{ tage.reisetag }} - {{ termin.reisename }} - {{ tage.beschreibung }}"><img src="{{ tage.foto.url }}" alt=""/><div class="image-overlay-zoom"></div></a>
+                        <div class="item-description alt">
+                            <h5><a href="{{ tage.foto.url }}">Tag {{ tage.reisetag }} - {{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
+                            <p>{{ termin }}
+                               {{ tage.beschreibung }}
+                            </p>
+                        </div>
+                        <div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
                     </div>
-                    <div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+                </div>
+            {% endfor %}
+        {% else %}
+                <div class="column portfolio-item">
+                    <div class="picture"><a href="{{ termin.reisename.link }}" title="Title"><img src="{{ termin.reisename.reiseheader.url }}" alt=""/><div class="image-overlay-link"></div></a>
+                        <div class="item-description alt">
+                            <h5><a href="{{ termin.reisename.link }}">{{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
+                            <p>
+                                Diese Reisegruppe ist gerade auf dem Weg nach China. Die ersten Reisebilder folgen in Kürze.
+                            </p>
+                        </div>
+                        <div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
+                    </div>
+                </div>
+        {% endif %}
+        {% if user.is_authenticated %}
+            <a href="{% url 'day_add' reise_slug=termin.reisename.slug termin_slug=termin.slug %}"> <div class="one-third column portfolio-item">
+                <div class="quotes">
+                    <div class="author">
+                        <span style="font-size: 3em;">  + Tag hinzufügen</span>
+                    </div>
                 </div>
             </div>
-        {% endfor %}
-    {% else %}
-            <div class="column portfolio-item">
-                <div class="picture"><a href="{{ termin.reisename.link }}" title="Title"><img src="{{ termin.reisename.reiseheader.url }}" alt=""/><div class="image-overlay-link"></div></a>
-                    <div class="item-description alt">
-                        <h5><a href="{{ termin.reisename.link }}">{{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
-                        <p>
-                            Diese Reisegruppe ist gerade auf dem Weg nach China. Die ersten Reisebilder folgen in Kürze.
-                        </p>
-                    </div>
-                    <div class="post-meta"><span><i class="mini-ico-calendar"></i>1 June 2011</span> <span><i class="mini-ico-user"></i> <a href="#">lucas</a></span> <span><i class="mini-ico-comment"></i><a href="#">89 comments</a></span></div>
-                </div>
-            </div>
-    {% endif %}
-    {% if user.is_authenticated %}
-		<a href="{% url 'day_add' reise_slug=termin.reisename.slug termin_slug=termin.slug %}"> <div class="one-third column portfolio-item">
-			<div class="quotes">
-				<div class="quote">
-                    <h1><span style="font-size: 5em; text-align: center" class="ico-circle-plus">  + </span></h1>
-                </div>
-				<div class="author">
-					- Steve Jobs -
-				</div>
-			</div>
-		</div>
-        </a>
-    {% endif %}
+            </a>
+        {% endif %}
 		<div class="one-third column portfolio-item">
 			<div class="picture"><a href="project.html" title="Title"><img src="{% static 'reiseberichte/' %}images/photo1.jpg" alt=""/><div class="image-overlay-link"></div></a>
 				<div class="item-description alt">

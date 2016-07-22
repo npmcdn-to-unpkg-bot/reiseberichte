@@ -1,5 +1,5 @@
 from django.db import models
-from uuslug import uuslug
+from uuslug import slugify, uuslug
 from django.conf import settings
 from django.core.urlresolvers import reverse
 from datetime import timedelta, datetime, date
