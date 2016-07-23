@@ -97,6 +97,7 @@ class Tag(TimeStampedModel):
     reise = models.ForeignKey(Reise, models.CASCADE)
     reisedatum = models.ForeignKey(Termin, models.CASCADE, related_name='termine')
 
+
     def __str__(self):
         datum = str(self.reisedatum)
         tag = str(self.reisetag)
