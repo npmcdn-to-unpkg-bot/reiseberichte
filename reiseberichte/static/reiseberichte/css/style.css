@@ -793,6 +793,12 @@ iframe {
 	letter-spacing: 0;
 }
 
+.item-description h3 {
+	padding: 0px 0 8px 0;
+	margin: 0 0 8px 0;
+	border-bottom: 1px solid #eee;
+}
+
 .item-description h5 span {
 	display: block;
 	color: #666;
@@ -1216,6 +1222,7 @@ iframe {
 
 .post-meta a {
 	text-decoration: none;
+	font-size: large;
 }
 
 .post-meta a:hover {

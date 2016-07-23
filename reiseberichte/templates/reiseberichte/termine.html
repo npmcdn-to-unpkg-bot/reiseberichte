@@ -25,7 +25,7 @@
 
                     </p>
                 </div>
-                <div class="post-meta"><span><i class="mini-ico-arrow-right"></i><a href="{{ termin.reisename.link }}">Mehr Informationen zu dieser Reise</a></span></div>
+                <div class="post-meta"><span><i class="mini-ico-arrow-right"></i><a target="_blank" href="{{ termin.reisename.link }}">Mehr Informationen zu dieser Reise</a></span></div>
             </div>
         </div>
 
@@ -34,12 +34,12 @@
                 <div class="one-third column portfolio-item">
                     <div class="picture"><a href="{{ tage.foto.url }}" rel="image" title="Tag {{ tage.reisetag }} - {{ termin.reisename }} - {{ tage.beschreibung }}"><img src="{{ tage.foto.url }}" alt=""/><div class="image-overlay-zoom"></div></a>
                         <div class="item-description alt">
-                            <h5><a href="{{ tage.foto.url }}">Tag {{ tage.reisetag }} - {{ termin.reisename }}</a></h5>
+                            <h3><a href="{{ tage.foto.url }}">Tag {{ tage.reisetag }} - {{ termin.reisename }}</a></h3>
                             <p>{{ termin }}
                                {{ tage.beschreibung }}
                             </p>
                         </div>
-                        <div class="post-meta"><span><i class="mini-ico-calendar"></i>{{ tage.created|date:"d.m.Y, G:i" }}</span> <span><i class="mini-ico-user"></i> <a href="#">{{ termin.reiseleiter }}</a></span></div>
+                        <div class="post-meta"><span><i class="mini-ico-calendar"></i>{{ tage.created|date:"d.m.Y, G:i" }}</span> <span><i class="mini-ico-user"></i> {{ termin.reiseleiter }}</span></div>
                     </div>
                 </div>
             {% endfor %}
