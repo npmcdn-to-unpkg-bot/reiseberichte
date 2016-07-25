@@ -17,13 +17,18 @@ body {
 	background: #f7f7f7;
 	background-attachment: fixed;
 	font-family: 'Roboto';
-	font-size: 12px;
+	font-size: 1em;
 	color: #666;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 	overflow-x: hidden;
 }
- 
+
+.handwriting {
+	font-family: 'Euphoria Script', cursive;
+	font-size: 300%;
+    margin-top: 10px;
+}
 #wrapper {
 	width: 960px;
 	padding: 0px 10px 20px 10px;
@@ -164,7 +169,8 @@ p, blockquote {
 }
 
 #logo-small {
-	background: url(../images/logo-small.png);
+	/*background: url(../images/logo-small.png);*/
+	font-family: 'Euphoria Script', cursive;
 	width: 48px;
 	height: 36px;
 	float: left;
@@ -1583,7 +1589,7 @@ input[type="button"] {
 	padding: 9px 12px;
 	display: inline-block;
 	border: 0px;
-	font-family: Arial, sans-serif;
+	/*font-family: Arial, sans-serif;*/
 	font-weight: bold;
 	cursor: pointer;
 	width: auto;
@@ -1600,6 +1606,9 @@ input[type="button"] {float: left;}
 
 .button.gray {color: #fff;background: #444;}
 .button.gray:hover {background:#72b626;}
+
+.button.green {color: #fff;background: #0eb166;}
+.button.green:hover {background:#0c9657;}
 
 .button.light {color:#fff; background:#aaa;}
 .button.light:hover {background:#72b626;}
@@ -2044,6 +2053,15 @@ blockquote {
 	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
     box-shadow: 0px 1px 1px rgba(0,0,0,.25);
 	font-size: 1.2em;
+}
+
+/* Formulare
+==================================================================*/
+.text-danger {
+    color: #a94442;
+}
+.label {
+	margin: 15px 0px 0px 0px ;
 }
 
 /* Dropcaps

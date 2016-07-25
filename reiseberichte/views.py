@@ -37,7 +37,7 @@ def terminseite(request, reise_slug, termin_slug):
     except Reise.DoesNotExist:
         raise Http404("Diese Reise existiert nicht")
     termin = get_object_or_404(Termin, slug=termin_slug)
-    tage = termin.termine.all()
+    tage = termin.termine.all().order_by('reisetag', 'created')
     context = {
         'tage': tage,
         'termin': termin,
@@ -55,22 +55,27 @@ def tagseite(request, datum, reise_kurzel, tag):
     return render(request, 'reiseberichte/tagesansicht.html', context)
 
 def add_day(request, reise_slug, termin_slug):
+    termin = Termin.objects.get(slug=termin_slug)
+    tag_nr = termin.termine.count() + 1
+    data = {'reisetag': tag_nr}
+    form = TagForm(initial=data)
+    context = {
+        'termin': termin,
+        'form': form
+    }
     if request.method == "POST":
         form = TagForm(request.POST, request.FILES)
         if form.is_valid():
             tag = form.save(commit=False)
             reise = Reise.objects.get(slug=reise_slug)
             tag.reise = reise
-            termin = Termin.objects.get(slug=termin_slug)
             tag.reisedatum = termin
-            tag_nr = termin.termine.count() + 1
-            tag.reisetag = tag_nr
             tag.save()
             messages.success(request, "Tag hinzugefügt!")
             return redirect('terminseite', reise_slug=reise_slug, termin_slug=termin_slug)
     else:
-        form = TagForm()
-    return render(request, 'reiseberichte/tag_form.html', {'form': form})
+        form = TagForm(initial=data)
+    return render(request, 'reiseberichte/tag_form.html', {'form': form, 'termin':termin})
 
 """
     class TagForm(CreateView, request, reise_kurzel):

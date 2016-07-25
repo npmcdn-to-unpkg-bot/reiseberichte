@@ -1,8 +1,26 @@
 {% extends 'reiseberichte/base.html' %}
 {% block body %}
+    <div xmlns="http://www.w3.org/1999/html">
+        <a href="{% url 'terminseite' reise_slug=termin.reisename.slug termin_slug=termin.slug %}">Abbrechen</a>
+        <h1>Tag hinzufügen</h1>
+        <ul class="circle_list">
+            <li><strong>Reise: </strong> {{ termin.reisename.reisekurzel }} - {{ termin.reisename.reisename }}</li>
+            <li><strong>Termin: </strong>     {{ termin.reisebeginn }}</li>
+            <li><strong>Reiseleiter: </strong>     {{ termin.reiseleiter }}</li>
+
+        </ul><br>
+    </div>
     <form class="" action="" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Submit</button>
+        {% for field in form %}
+                <label class="label">{{ field.label_tag }}</label>
+
+                {{ field }}                <span class="text-danger">{{ field.errors }}</span>
+
+            <br>
+        {% endfor %}
+                <button class="button medium light" type="submit">SPEICHERN</button>
+
+
     </form>
 {% endblock %}

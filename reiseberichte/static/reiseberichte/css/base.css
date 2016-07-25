@@ -195,7 +195,7 @@
 	legend {
 		display: block;
 		font-weight: bold;
-		font-size: 12px; 
+		/*font-size: 12px;*/
 		font-weight: normal;
 		margin-bottom: 8px;}
 	select {
