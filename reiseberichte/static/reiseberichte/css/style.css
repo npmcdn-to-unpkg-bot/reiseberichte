@@ -2323,6 +2323,10 @@ table.standard-table tr:hover td {background-color: #fcfcfc;}
 	#portfolio-wrapper img {
 		min-height: 265px;
 	}
+
+	#portfolio-wrapperb img {
+	min-height: 265px;
+	}
 	
 	.five-tables .pricing-table,
 	.four-tables .pricing-table,
@@ -2353,7 +2357,11 @@ table.standard-table tr:hover td {background-color: #fcfcfc;}
 	#portfolio-wrapper img {
 		min-height: 189px;
 	}
-	
+
+	#portfolio-wrapperb img {
+		min-height: 189px;
+	}
+
 	.five-tables .pricing-table,
 	.four-tables .pricing-table,
 	.three-tables .pricing-table,

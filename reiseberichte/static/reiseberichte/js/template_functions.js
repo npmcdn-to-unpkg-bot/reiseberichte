@@ -348,14 +348,14 @@ $('#wrapper').imagesLoaded(function() {
 		  // options...
 		  resizable: false, // disable normal resizing
 		  // set columnWidth to a percentage of container width
-		  layoutMode: 'fitRows'
+		  masonry: { columnWidth: $container.width() / 12 }
 		});
 
 		// update columnWidth on window resize
 		$(window).smartresize(function(){
 		  $container.isotope({
 			// update columnWidth to a percentage of container width
-		  layoutMode: 'fitRows'
+			masonry: { columnWidth: $container.width() / 12 }
 		  });
 		});
 		
@@ -402,40 +402,7 @@ $('#wrapper').imagesLoaded(function() {
 		
 		return false;
 	  });
-});
-	
-/* ------------------- Fancybox --------------------- */
-
-(function() {
-
-	$('[rel=image]').fancybox({
-		type        : 'image',
-		openEffect  : 'fade',
-		closeEffect	: 'fade',
-		nextEffect  : 'fade',
-		prevEffect  : 'fade',
-		helpers     : {
-			title   : {
-				type : 'inside'
-			}
-		}
 	});
-	
-	$('[rel=image-gallery]').fancybox({
-		nextEffect  : 'fade',
-		prevEffect  : 'fade',
-		helpers     : {
-			title   : {
-				type : 'inside'
-			},
-			buttons  : {},
-			media    : {}
-		}
-	});
-	
-	
-})();
-
 });
 
 /* ------------------ Back To Top ------------------- */

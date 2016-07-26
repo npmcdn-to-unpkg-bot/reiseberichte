@@ -32,9 +32,9 @@
         {% if tage %}
             {% for tage in tage %}
                 <div class="one-third column portfolio-item">
-                    <div class="picture"><a href="{{ tage.foto.url }}" rel="image" title="Tag {{ tage.reisetag }} - {{ termin.reisename }} - {{ tage.beschreibung }}"><img src="{{ tage.foto.url }}" alt=""/><div class="image-overlay-zoom"></div></a>
+                    <div class="picture"><a href="{{ tage.foto.url }}" class="swipebox" rel="image" title="Tag {{ tage.reisetag }} - {{ termin.reisename }} - {{ tage.beschreibung }}"><img src="{{ tage.foto.url }}" alt=""/><div class="image-overlay-zoom"></div></a>
                         <div class="item-description alt">
-                            <h3><a href="{{ tage.foto.url }}">Tag {{ tage.reisetag }} - {{ termin.reisename }}</a></h3>
+                            <h3><a href="{{ tage.foto.url }}" class="swipebox">Tag {{ tage.reisetag }} - {{ termin.reisename }}</a></h3>
                             <p>{{ termin }}
                                {{ tage.beschreibung }}
                             </p>
@@ -56,4 +56,12 @@
         {% endif %}
 	</div>
 	<!-- end: Portfolio -->
+
+<script type="text/javascript">
+;( function( $ ) {
+
+	$( '.swipebox' ).swipebox();
+
+} )( jQuery );
+</script>
 {% endblock %}
