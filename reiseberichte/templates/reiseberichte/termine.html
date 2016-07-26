@@ -58,10 +58,23 @@
 	<!-- end: Portfolio -->
 
 <script type="text/javascript">
-;( function( $ ) {
+$(document).ready(function() {
+  $('.swipebox').magnificPopup({
+  type: 'image',
+        gallery:{
+    enabled:true,
+    navigateByImgClick: true,
+  }
+  // other options
+});
+});
+
+/* swipbox
+( function( $ ) {
 
 	$( '.swipebox' ).swipebox();
 
 } )( jQuery );
+*/
 </script>
 {% endblock %}
