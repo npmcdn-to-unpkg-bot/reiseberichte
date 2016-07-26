@@ -2,945 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="586c586f-b69b-4b23-862a-adaf246966df" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/css/filebrowser.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/css/uploadfield.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/TEST_IMAGE_000.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/cancel_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/completed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/fb-upload-spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/fb-upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/fb-upload_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/icon-pulldown-versions-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/icon-pulldown-versions-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/icon-pulldown-versions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/progress-bar-content.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/img/testimage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/js/AddFileBrowser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/js/FB_CKEditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/js/FB_FileBrowseField.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/js/FB_TinyMCE.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/js/TinyMCEAdmin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filebrowser/js/fileuploader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/css/admin_filer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/django-filer-iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/django-filer-iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/django-filer-iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/django-filer-iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/django-filer-iconfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/src/check.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/src/remove.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/fonts/src/trash-o.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/breadcrubms_dropdown_28_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/file_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/image_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/incomplete_metadata_folder_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/missingfile_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/nofile_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/plainfolder_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/root_28x28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/unfiled_folder_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/video_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_128x128@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_16x16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_256x256@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_32x32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_48x48@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_512x512@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_64x64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/icons/xfile_64x64@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/button-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/close.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/icon_changelink.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/icon_deletelink.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/loading_animation.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/nav-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/select_item-hover.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/select_item.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/img/upload_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/copy-move-files.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/dropdown-menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/dropzone.init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/focal-point.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/popup_handling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/table-dropzone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/toggler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/upload-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/addons/widget.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/class.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/dropzone.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/fileuploader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/jquery.cookie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/mediator.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/filer/js/libs/retina.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/backgrounds/changelist-results.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/backgrounds/loading-small.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/backgrounds/messagelist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/backgrounds/nav-grabber.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/backgrounds/ui-sortable-placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-s846f870921.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small-scbbb475e49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/add-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/add-link_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/change-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/change-link_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/delete-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/filter-choice-selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/link-external.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/link-external_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/link-internal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/link-internal_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons-small/sort-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/add-another.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/add-another_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/back-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/back-link_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/breadcrumbs-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/breadcrumbs-rtl_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/breadcrumbs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/breadcrumbs_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/date-hierarchy-back-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/date-hierarchy-back-rtl_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/date-hierarchy-back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/date-hierarchy-back_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/datepicker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/datepicker_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/datetime-now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/datetime-now_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/form-select.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/object-tools-add-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/object-tools-viewsite-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/pulldown-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/pulldown-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/pulldown-handler_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/related-lookup-m2m.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/related-lookup-m2m_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/related-lookup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/related-lookup_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/related-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/related-remove_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/searchbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-add-m2m-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-add-m2m-horizontal_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-add-m2m-vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-add-m2m-vertical_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-remove-m2m-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-remove-m2m-horizontal_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-remove-m2m-vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/selector-remove-m2m-vertical_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/sort-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/sort-remove_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/sorted-ascending.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/sorted-descending.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/status-no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/status-unknown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/status-yes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/th-ascending.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/th-descending.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/timepicker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/timepicker_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-add-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-add-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-arrow-down-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-arrow-down-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-arrow-up-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-arrow-up-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-close-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-close-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-delete-handler-predelete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-delete-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-delete-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-drag-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-drag-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-open-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-open-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-remove-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-remove-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-trash-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-trash-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-trash-list-toggle-handler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-trash-list-toggle-handler_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-viewsite-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/tools-viewsite-link_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/ui-datepicker-next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/ui-datepicker-next_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/ui-datepicker-prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/images/icons/ui-datepicker-prev_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/img/admin/arrow-down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/img/admin/arrow-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/jquery-2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/jquery/ui/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/grappelli.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/grappelli.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_autocomplete_fk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_autocomplete_generic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_autocomplete_m2m.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_collapsible.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_collapsible_group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_inline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_related_fk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_related_generic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_related_m2m.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/js/jquery.grp_timepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/stylesheets/mueller/grid/output-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/stylesheets/mueller/grid/output.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/stylesheets/mueller/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/stylesheets/partials/custom/tinymce.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/stylesheets/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/stylesheets/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/changelog.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/accessibility.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/css/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/css/word.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/custom_formats.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/full.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/lists/image_list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/lists/link_list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/lists/media_list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/lists/template_list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/skins.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/templates/layout1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/templates/snippet1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/examples/word.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/langs/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css/advhr.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js/rule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/rule.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css/advimage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img/sample.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/css/advimage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/image.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/img/sample.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/js/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css/advlink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js/advlink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/link.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/css/advlink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/js/advlink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/link.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/emotions.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cool.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cry.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-frown.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-innocent.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-kiss.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-sealed.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-surprised.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-undecided.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-wink.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-yell.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js/emotions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/dialog.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img/example.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js/dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css/fullpage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/fullpage.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/img/show_advanced.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/img/visualchars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/template.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/css/media.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/media.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/moxieplayer.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pastetext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pastetext.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pastetext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pasteword.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pastetext.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pasteword.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/css/searchreplace.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/js/searchreplace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/searchreplace.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img/wline.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css/props.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js/props.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/props.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/cell.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/row.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/cell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/merge_cells.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/row.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/merge_cells.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/row.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/table.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/blank.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/template.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/blank.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/css/template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/template.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/about.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/anchor.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/charmap.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/color_picker.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/image.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/colorpicker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/flash.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/iframe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/quicktime.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/realmedia.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/shockwave.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/trans.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/video.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/windowsmedia.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/charmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/color_picker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/source_editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/shortcuts.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/items.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/progress.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_cs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_de.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_en.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_pl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/customized.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/blockquote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bullist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/charmap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/cleanup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/italic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifycenter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyfull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyleft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/media.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/numlist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/pasteword.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/show_advanced.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_cell_props.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_after.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_before.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_col.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_row.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_merge_cells.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_after.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_before.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_props.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_split_cells.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/template.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/underline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/unlink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/visualchars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/button_pagebreak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/pagebreak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-mceResize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/menu/icon-mceOpen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img/icons.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/content.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_popup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_src.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/utils/editable_selects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/utils/form_utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/utils/mctabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce/jscripts/tiny_mce/utils/validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/grappelli/tinymce_setup/tinymce_setup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/css/colors/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/css/fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/css/icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/css/skeleton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/css/social_icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/accordion-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/accordion-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/alert_boxes_close_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/car.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/car_square.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/desert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/heaven.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/eject.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/glyphicons-mini-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/glyphicons-mini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/glyphicons-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/glyphicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_cross.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/list/yellow/list_star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/amazon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/behance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/blogger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/deviantart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/dribbble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/dropbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/evernote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/forrst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/googleplus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/jolicloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/last-fm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/picasa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/pintrest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/spotify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/stumbleupon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/tumblr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/vimeo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/wordpress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/xing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/yahoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social/youtube.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/aim.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/apple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/behance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/blogger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/cargo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/delicious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/deviantart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/digg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/dopplr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/dribbble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/ember.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/evernote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/forrst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/google.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/googleplus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/gowalla.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/grooveshark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/html5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/icloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/lastfm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/metacafe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/mixx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/myspace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/netvibes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/newsvine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/orkut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/picasa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/pinterest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/plurk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/posterous.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/reddit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/stumbleupon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/technorati.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/tumblr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/vimeo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/wordpress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/yahoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/yelp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/youtube.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/zerply.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/social2/zootool.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/yellow/car.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/yellow/glyphicons-mini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/yellow/glyphicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/icons/yellow/team_member.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/links-list-arrow-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/links-list-arrow-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/logo-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/logotyp_footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/mobile_app1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/mobile_app_square.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/nav-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/navigation-divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/overlay-icon-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/overlay-icon-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/photo9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/quote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/scroll-top-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/search-ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider-control-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider-control-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider/desert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider/mobile_app1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider/slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider/slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider/slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/slider/web_app1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/team_member.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/testimonials-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/testimonials-left-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/testimonials-left-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/testimonials-right-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/testimonials-right-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/web_app1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/images/web_app_square.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/effects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/isotope.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/jquery.gmap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/jquery.imagesloaded.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/jquery.infinitescroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/selectnav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/template_functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/reiseberichte/js/twitter.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/style.css" afterPath="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/static/reiseberichte/js/template_functions.js" afterPath="$PROJECT_DIR$/reiseberichte/static/reiseberichte/js/template_functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/swipebox.css" afterPath="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/swipebox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" />
     </list>
     <ignored path="chinatours.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -998,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="termine.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="termine.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
+            <state relative-caret-position="881">
               <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding />
             </state>
@@ -1028,14 +91,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            <state relative-caret-position="380">
+              <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
               <folding>
                 <element signature="n#for#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swipebox.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/swipebox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3469">
+              <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1074,6 +147,7 @@
         <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/js/template_functions.js" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" />
+        <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/swipebox.css" />
       </list>
     </option>
   </component>
@@ -1215,6 +289,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="reiseberichte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chinatours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chinatours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reiseberichte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reiseberichte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1599,9 +699,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27025586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27025586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35746104" sideWeight="0.5298507" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1639,16 +739,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reiseberichte/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chinatours/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1966,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/reiseberichte/js/fancybox.js" />
     <entry file="file://$PROJECT_DIR$/static/reiseberichte/js/isotope.js" />
     <entry file="file://$PROJECT_DIR$/static/reiseberichte/js/jquery.imagesloaded.js" />
@@ -2014,7 +1096,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2024,26 +1106,42 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="380">
+          <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
           <folding>
             <element signature="n#for#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/swipebox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3469">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
