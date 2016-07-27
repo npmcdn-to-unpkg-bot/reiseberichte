@@ -11,14 +11,14 @@
                 {{ unterwegs }}
 			</div>
 		</div>
-        {% for termin in termin %}
+        {% for unterwegs in unterwegs %}
             <div class="one-third column portfolio-item">
-                <div class="picture"><a href="{% url 'terminseite' reise_slug=termin.reisename.slug termin_slug=termin.slug %}" title="Title"><img src="{% if termin.get_latest_foto.foto %}{{ termin.get_latest_foto.foto.url }}{% else %}{{ termin.reisename.reiseheader.url }}{% endif %}" alt=""/><div class="image-overlay-link"></div></a>
+                <div class="picture"><a href="{% url 'terminseite' reise_slug=unterwegs.reisename.slug termin_slug=unterwegs.slug %}" title="Title"><img src="{% if unterwegs.get_latest_foto.foto %}{{ unterwegs.get_latest_foto.foto.url }}{% else %}{{ unterwegs.reisename.reiseheader.url }}{% endif %}" alt=""/><div class="image-overlay-link"></div></a>
                     <div class="item-description alt">
-                        <h5><a href="{% url 'terminseite' reise_slug=termin.reisename.slug termin_slug=termin.slug %}">{{ termin.reisename }} - {{ termin.reisebeginn }} bis {{ termin.reiseende }}</a></h5>
-                        <p>{{ termin }}
-                            {% if termin.get_latest_foto.foto %}
-                            {{ termin.get_latest_foto.beschreibung }}
+                        <h5><a href="{% url 'terminseite' reise_slug=unterwegs.reisename.slug termin_slug=unterwegs.slug %}">{{ unterwegs.reisename }} - {{ unterwegs.reisebeginn }} bis {{ unterwegs.reiseende }}</a></h5>
+                        <p>
+                            {% if unterwegs.get_latest_foto.foto %}
+                            {{ unterwegs.get_latest_foto.beschreibung }}
                             {% else %}
                             Diese Reisegruppe ist gerade auf dem Weg nach China.
                         {% endif %}

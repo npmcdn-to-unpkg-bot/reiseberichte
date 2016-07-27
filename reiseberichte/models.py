@@ -77,7 +77,7 @@ class Termin(TimeStampedModel):
 
     # Methode, um den neuesten zugeordneten Tag zum Termin zu holen, ausgehend vom Foto
     def get_latest_foto(self):
-        return Tag.objects.filter(reisedatum=self).latest("foto")
+        return Tag.objects.filter(reisedatum=self).last()
 
     # Plural Anzeige im Admin
     class Meta:
