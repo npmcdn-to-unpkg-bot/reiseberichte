@@ -3,7 +3,10 @@ from uuslug import slugify, uuslug
 from django.conf import settings
 from django.core.urlresolvers import reverse
 from datetime import timedelta, datetime, date
-
+from PIL import Image
+import PIL.ExifTags
+from PIL.ExifTags import TAGS, GPSTAGS
+import exifread
 
 class TimeStampedModel(models.Model):
     # Abstract base class model to add 'created' and 'modified' fields to all models.
@@ -107,8 +110,36 @@ class Tag(TimeStampedModel):
     class Meta:
         verbose_name_plural = "Tage"
 
+    def get_exif_data(self):
+        """Returns a dictionary from the exif data of an PIL Image item. Also converts the GPS Tags"""
+        img=PIL.Image.open(self.foto)
+        exif_data = {}
+        info = img._getexif()
 
+        ret = {}
+        for tag, value in info.items():
+            decoded = TAGS.get(tag, tag)
+            ret[decoded] = value
 
+        nsec = ret['GPSInfo'][2][2][0] / float(ret['GPSInfo'][2][2][1])
+        nmin = ret['GPSInfo'][2][1][0] / float(ret['GPSInfo'][2][1][1])
+        ndeg = ret['GPSInfo'][2][0][0] / float(ret['GPSInfo'][2][0][1])
+        wsec = ret['GPSInfo'][4][2][0] / float(ret['GPSInfo'][4][2][1])
+        wmin = ret['GPSInfo'][4][1][0] / float(ret['GPSInfo'][4][1][1])
+        wdeg = ret['GPSInfo'][4][0][0] / float(ret['GPSInfo'][4][0][1])
 
+        if ret['GPSInfo'][1] == 'N':
+            nmult = 1
+        else:
+            nmult = -1
 
+        if ret['GPSInfo'][3] == 'E':
+            wmult = 1
+        else:
+            wmult = -1
+
+        lat = nmult * (ndeg + (nmin + nsec / 60.0) / 60.0)
+        lng = wmult * (wdeg + (wmin + wsec / 60.0) / 60.0)
+
+        return lat, lng
 

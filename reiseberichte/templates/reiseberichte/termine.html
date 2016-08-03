@@ -1,9 +1,22 @@
 {% extends 'reiseberichte/base.html' %}
 {% load staticfiles %}
+{% block includes %}
+    <script src="{% static 'reiseberichte/' %}js/strip.pkgd.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'reiseberichte/' %}css/strip.css">
+
+{% comment %}  Includes for leaflet map
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
+<script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
+
+<style>
+    #mapid { height: 180px; }
+</style>{% endcomment %}
+{% endblock %}
 
 {% block body %}
 	<!-- start: Portfolio -->
     <div id="portfolio-wrapper" xmlns="http://www.w3.org/1999/html">
+
         {% if messages %}
             <div class="sixteen columns">
                 {% for message in messages %}
@@ -32,10 +45,7 @@
         {% if tage %}
             {% for tage in tage %}
                 <div class="one-third column portfolio-item">
-                    <div class="picture"><a href="{{ tage.foto.url }}" class="ilightbox" data-options="social: {facebook: true,twitter: true, custom_button: { source: '#', text: 'Share on Custom Button',
-    width: 720,
-    height: 420
-  }}" rel="image" data-title="{{ termin.reisename }} - Tag {{ tage.reisetag }}" data-caption="{{ tage.beschreibung }}"><img src="{{ tage.foto.url }}" alt=""/><div class="image-overlay-zoom"></div></a>
+                    <div class="picture"><a href="{{ tage.foto.url }}" class="strip" rel="image" data-strip-group="mygroup" data-strip-title="{{ termin.reisename }} - Tag {{ tage.reisetag }}" data-strip-caption="{{ tage.beschreibung }}"><img src="{{ tage.foto.url }}" alt=""/></a>
                         <div class="item-description alt">
                             <h3><a href="{{ tage.foto.url }}" class="swipebox">Tag {{ tage.reisetag }} - {{ termin.reisename }}</a></h3>
                             <p>{{ termin }}
@@ -44,6 +54,7 @@
                         </div>
                         <div class="post-meta"><span><i class="mini-ico-calendar"></i>{{ tage.created|date:"d.m.Y, G:i" }}</span> <span><i class="mini-ico-user"></i> {{ termin.reiseleiter }}</span></div>
                     </div>
+{# Karte fuer Script                   <div id="mapid"></div>#}
                 </div>
             {% endfor %}
         {% endif %}
@@ -57,15 +68,22 @@
             </div>
             </a>
         {% endif %}
-	</div>
+</div>
+{% comment %} Script fuer Karte, Benutzen der GPS Angaben aus dem Exif muss noch eingebaut werden
+<script>
+document.getElementById("myBtn").addEventListener("click", myFunction);
+function myFunction() {
+    var mymap = L.map('mapid').setView([53.101303083333335, 8.8326435], 13);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'yunusabd.10e370gg',
+        accessToken: 'pk.eyJ1IjoieXVudXNhYmQiLCJhIjoiY2lyYWR6dHBtMDA0b2llbm5venV6MGVtYyJ9.CRKwiTq3-z1p6TMqOs1Frg'
+    }).addTo(mymap);
+}
+</script>{% endcomment %}
 	<!-- end: Portfolio -->
 
-<script>
-  $('.ilightbox').iLightBox({
-      arrows: true,
-      skin: 'light',
-      innerToolbar: true,
-      thumbnail: false
-});
-</script>
+
 {% endblock %}
