@@ -1,12 +1,9 @@
 from django.db import models
-from uuslug import slugify, uuslug
-from django.conf import settings
-from django.core.urlresolvers import reverse
-from datetime import timedelta, datetime, date
-from PIL import Image
+from uuslug import uuslug
+from datetime import timedelta, datetime
 import PIL.ExifTags
-from PIL.ExifTags import TAGS, GPSTAGS
-import exifread
+from PIL.ExifTags import TAGS
+
 
 class TimeStampedModel(models.Model):
     # Abstract base class model to add 'created' and 'modified' fields to all models.
@@ -59,8 +56,6 @@ class Reiseleiter(TimeStampedModel):
         ende = reisebeginn+timedelta(days=dauer)
         return super(TerminManager, self).qs.get(id=5)'''
 
-#class TerminManager(models.Manager):
-#    def unterwegs(self):
 
 class Termin(TimeStampedModel):
     reisename = models.ForeignKey(Reise, related_name='reise')
