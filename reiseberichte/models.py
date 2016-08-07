@@ -3,6 +3,10 @@ from uuslug import uuslug
 from datetime import timedelta, datetime
 import PIL.ExifTags
 from PIL.ExifTags import TAGS
+import PIL.Image
+from geopy.geocoders import Nominatim
+
+
 
 
 class TimeStampedModel(models.Model):
@@ -92,8 +96,11 @@ class Tag(TimeStampedModel):
     reisetag = models.IntegerField()
     foto = models.ImageField()
     beschreibung = models.TextField(max_length=1000)
+    ort = models.CharField(max_length=50)
     reise = models.ForeignKey(Reise, models.CASCADE)
     reisedatum = models.ForeignKey(Termin, models.CASCADE, related_name='termine')
+    koordinaten = models.CharField(max_length=100, editable=False, )
+    koordinateneckig = models.CharField(max_length=100, editable=False, )
 
 
     def __str__(self):
@@ -102,39 +109,48 @@ class Tag(TimeStampedModel):
         kurzel = self.reise.reisekurzel
         return kurzel + ' Tag ' + tag
 
+    def save(self, *args, **kwargs):
+        geolocator = Nominatim()
+        location = geolocator.geocode(self.ort)
+        self.koordinaten = location.latitude, location.longitude
+        self.koordinateneckig = [location.latitude, location.longitude]
+        super(Tag, self).save(*args, **kwargs)
+
     class Meta:
         verbose_name_plural = "Tage"
 
-    def get_exif_data(self):
-        """Returns a dictionary from the exif data of an PIL Image item. Also converts the GPS Tags"""
-        img=PIL.Image.open(self.foto)
-        exif_data = {}
-        info = img._getexif()
+    # GPS Koordinaten aus EXIF auslesen --> gibt KeyError
+    # def get_exif_data(self):
+    #     """Returns a dictionary from the exif data of an PIL Image item. Also converts the GPS Tags"""
+    #     img=PIL.Image.open(self.foto)
+    #     exif_data = {}
+    #     info = img._getexif()
+    #
+    #     ret = {}
+    #     for tag, value in info.items():
+    #         decoded = TAGS.get(tag, tag)
+    #         ret[decoded] = value
+    #
+    #         nsec = ret['GPSInfo'][2][2][0] / float(ret['GPSInfo'][2][2][1])
+    #         nmin = ret['GPSInfo'][2][1][0] / float(ret['GPSInfo'][2][1][1])
+    #         ndeg = ret['GPSInfo'][2][0][0] / float(ret['GPSInfo'][2][0][1])
+    #         wsec = ret['GPSInfo'][4][2][0] / float(ret['GPSInfo'][4][2][1])
+    #         wmin = ret['GPSInfo'][4][1][0] / float(ret['GPSInfo'][4][1][1])
+    #         wdeg = ret['GPSInfo'][4][0][0] / float(ret['GPSInfo'][4][0][1])
+    #
+    #         if ret['GPSInfo'][1] == 'N':
+    #             nmult = 1
+    #         else:
+    #             nmult = -1
+    #
+    #         if ret['GPSInfo'][3] == 'E':
+    #             wmult = 1
+    #         else:
+    #             wmult = -1
+    #
+    #         lat = nmult * (ndeg + (nmin + nsec / 60.0) / 60.0)
+    #         lng = wmult * (wdeg + (wmin + wsec / 60.0) / 60.0)
+    #
+    #         return [lat, lng]
 
-        ret = {}
-        for tag, value in info.items():
-            decoded = TAGS.get(tag, tag)
-            ret[decoded] = value
-
-        nsec = ret['GPSInfo'][2][2][0] / float(ret['GPSInfo'][2][2][1])
-        nmin = ret['GPSInfo'][2][1][0] / float(ret['GPSInfo'][2][1][1])
-        ndeg = ret['GPSInfo'][2][0][0] / float(ret['GPSInfo'][2][0][1])
-        wsec = ret['GPSInfo'][4][2][0] / float(ret['GPSInfo'][4][2][1])
-        wmin = ret['GPSInfo'][4][1][0] / float(ret['GPSInfo'][4][1][1])
-        wdeg = ret['GPSInfo'][4][0][0] / float(ret['GPSInfo'][4][0][1])
-
-        if ret['GPSInfo'][1] == 'N':
-            nmult = 1
-        else:
-            nmult = -1
-
-        if ret['GPSInfo'][3] == 'E':
-            wmult = 1
-        else:
-            wmult = -1
-
-        lat = nmult * (ndeg + (nmin + nsec / 60.0) / 60.0)
-        lng = wmult * (wdeg + (wmin + wsec / 60.0) / 60.0)
-
-        return lat, lng
 

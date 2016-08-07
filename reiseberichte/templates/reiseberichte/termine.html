@@ -4,13 +4,13 @@
     <script src="{% static 'reiseberichte/' %}js/strip.pkgd.js"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'reiseberichte/' %}css/strip.css">
 
-{% comment %}  Includes for leaflet map
+  Includes for leaflet map
 <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
 <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
 
 <style>
-    #mapid { height: 180px; }
-</style>{% endcomment %}
+    #mapid { height: 280px; }
+</style>
 {% endblock %}
 
 {% block body %}
@@ -50,11 +50,12 @@
                             <h3><a href="{{ tage.foto.url }}" class="swipebox">Tag {{ tage.reisetag }} - {{ termin.reisename }}</a></h3>
                             <p>{{ termin }}
                                {{ tage.beschreibung }}
+
                             </p>
                         </div>
                         <div class="post-meta"><span><i class="mini-ico-calendar"></i>{{ tage.created|date:"d.m.Y, G:i" }}</span> <span><i class="mini-ico-user"></i> {{ termin.reiseleiter }}</span></div>
                     </div>
-{# Karte fuer Script                   <div id="mapid"></div>#}
+
                 </div>
             {% endfor %}
         {% endif %}
@@ -69,11 +70,20 @@
             </a>
         {% endif %}
 </div>
-{% comment %} Script fuer Karte, Benutzen der GPS Angaben aus dem Exif muss noch eingebaut werden
+     <div id="mapid"></div>
+
+                                <button type="button" id="myBtn">Default</button>
+ Script fuer Karte, Benutzen der GPS Angaben aus dem Exif muss noch eingebaut werden
 <script>
 document.getElementById("myBtn").addEventListener("click", myFunction);
 function myFunction() {
+    var polylinePoints = [
+    {% for tag in tage %}new L.LatLng
+    {% if not forloop.last %}{{ tag.koordinaten }},{% else %}{{ tag.koordinaten }}{% endif %}{% endfor %}];
+
     var mymap = L.map('mapid').setView([53.101303083333335, 8.8326435], 13);
+        mymap.fitBounds([polylinePoints]);
+
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -81,8 +91,24 @@ function myFunction() {
         id: 'yunusabd.10e370gg',
         accessToken: 'pk.eyJ1IjoieXVudXNhYmQiLCJhIjoiY2lyYWR6dHBtMDA0b2llbm5venV6MGVtYyJ9.CRKwiTq3-z1p6TMqOs1Frg'
     }).addTo(mymap);
+
+    var polylineOptions = {
+        color: 'blue',
+        weight: 4,
+        opacity: 0.8,
+        dashArray: '2,15',
+        lineCap: 'square',
+        smoothFactor: 2
+    };
+
+    var polyline = new L.Polyline(polylinePoints, polylineOptions).addTo(mymap);
+{#    mymap.setView(polyline.getBounds());#}
+    var {% for tag in tage %}
+    {% if not forloop.last %}{{ tag.ort }} = L.marker({{ tag.koordinateneckig }}).bindPopup("<a href='{{ tage.foto.url }}' class='swipebox'><img src='{{ tag.foto.url }}' style='width: 100px'/></a> {{ tag.beschreibung }}"),{% else %}{{ tag.ort }} = L.marker({{ tag.koordinateneckig }}).bindPopup("<a href='{{ tage.foto.url }}' class='swipebox'><img src='{{ tag.foto.url }}' style='width: 100px'/></a> {{ tag.beschreibung }}");{% endif %}{% endfor %}
+    var cities = L.layerGroup([{% for tag in tage %}{% if not forloop.last %}{{ tag.ort }},{% else %}{{ tag.ort }}{% endif %}{% endfor %}]).addTo(mymap);
 }
-</script>{% endcomment %}
+
+</script>
 	<!-- end: Portfolio -->
 
 
