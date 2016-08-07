@@ -4,7 +4,7 @@ from datetime import timedelta, datetime
 import PIL.ExifTags
 from PIL.ExifTags import TAGS
 import PIL.Image
-from geopy.geocoders import Nominatim
+from geopy.geocoders import GeoNames
 
 
 
@@ -110,7 +110,8 @@ class Tag(TimeStampedModel):
         return kurzel + ' Tag ' + tag
 
     def save(self, *args, **kwargs):
-        geolocator = Nominatim()
+        # Nominatim ausgebaut
+        geolocator = GeoNames(username='yunusabd')
         location = geolocator.geocode(self.ort)
         self.koordinaten = location.latitude, location.longitude
         self.koordinateneckig = [location.latitude, location.longitude]

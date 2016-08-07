@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="586c586f-b69b-4b23-862a-adaf246966df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/forms.py" afterPath="$PROJECT_DIR$/reiseberichte/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/models.py" afterPath="$PROJECT_DIR$/reiseberichte/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" />
     </list>
     <ignored path="chinatours.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="termine.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="termine.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="228">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,17 +51,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reiseberichte/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="121" column="57" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
+            <state relative-caret-position="487">
+              <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <element signature="e#247#474#0" expanded="false" />
-                <element signature="e#512#1239#0" expanded="false" />
-                <element signature="e#1283#1477#0" expanded="false" />
-                <element signature="e#1479#1767#1" expanded="false" />
+                <element signature="e#246#473#0" expanded="false" />
+                <element signature="e#511#1238#0" expanded="false" />
+                <element signature="e#1282#1476#0" expanded="false" />
+                <element signature="e#1478#1766#1" expanded="false" />
+                <element signature="e#1805#2936#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -181,8 +179,8 @@
         <option value="$PROJECT_DIR$/chinatours/settings.py" />
         <option value="$PROJECT_DIR$/reiseberichte/forms.py" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" />
-        <option value="$PROJECT_DIR$/reiseberichte/models.py" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" />
+        <option value="$PROJECT_DIR$/reiseberichte/models.py" />
       </list>
     </option>
   </component>
@@ -209,7 +207,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -222,13 +220,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -666,10 +658,11 @@
           <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#247#474#0" expanded="false" />
-            <element signature="e#512#1239#0" expanded="false" />
-            <element signature="e#1283#1477#0" expanded="false" />
-            <element signature="e#1479#1767#1" expanded="false" />
+            <element signature="e#246#473#0" expanded="false" />
+            <element signature="e#511#1238#0" expanded="false" />
+            <element signature="e#1282#1476#0" expanded="false" />
+            <element signature="e#1478#1766#1" expanded="false" />
+            <element signature="e#1805#2936#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -754,10 +747,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#247#474#0" expanded="false" />
-            <element signature="e#512#1239#0" expanded="false" />
-            <element signature="e#1283#1477#0" expanded="false" />
-            <element signature="e#1479#1767#1" expanded="false" />
+            <element signature="e#246#473#0" expanded="false" />
+            <element signature="e#511#1238#0" expanded="false" />
+            <element signature="e#1282#1476#0" expanded="false" />
+            <element signature="e#1478#1766#1" expanded="false" />
+            <element signature="e#1805#2936#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1035,25 +1029,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/models.py">
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="121" column="57" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#247#474#0" expanded="false" />
-            <element signature="e#512#1239#0" expanded="false" />
-            <element signature="e#1283#1477#0" expanded="false" />
-            <element signature="e#1479#1767#1" expanded="false" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
+    <entry file="file://$PROJECT_DIR$/reiseberichte/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="487">
+          <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#246#473#0" expanded="false" />
+            <element signature="e#511#1238#0" expanded="false" />
+            <element signature="e#1282#1476#0" expanded="false" />
+            <element signature="e#1478#1766#1" expanded="false" />
+            <element signature="e#1805#2936#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
