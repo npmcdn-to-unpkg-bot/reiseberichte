@@ -3,13 +3,14 @@
 {% block includes %}
     <script src="{% static 'reiseberichte/' %}js/strip.pkgd.js"></script>
     <link rel="stylesheet" type="text/css" href="{% static 'reiseberichte/' %}css/strip.css">
-
+{% comment %}
   Includes for leaflet map
+{% endcomment %}
 <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
 <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
 
 <style>
-    #mapid { height: 280px; }
+    #mapid { height: 380px; }
 </style>
 {% endblock %}
 
@@ -78,11 +79,15 @@
 document.getElementById("myBtn").addEventListener("click", myFunction);
 function myFunction() {
     var polylinePoints = [
-    {% for tag in tage %}new L.LatLng
-    {% if not forloop.last %}{{ tag.koordinaten }},{% else %}{{ tag.koordinaten }}{% endif %}{% endfor %}];
-
+    {% for tag in tage %}new L.LatLng{% if not forloop.last %}{{ tag.koordinaten }},{% else %}{{ tag.koordinaten }}{% endif %}
+    {% endfor %}];
     var mymap = L.map('mapid').setView([53.101303083333335, 8.8326435], 13);
-        mymap.fitBounds([polylinePoints]);
+    if (polylinePoints.length < 2) {
+        mymap.panTo(polylinePoints[0]);
+    }
+    else {
+        mymap.fitBounds([polylinePoints], {padding: [50, 50]});
+    }
 
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -94,18 +99,19 @@ function myFunction() {
 
     var polylineOptions = {
         color: 'blue',
-        weight: 4,
+        weight: 3,
         opacity: 0.8,
-        dashArray: '2,15',
+        dashArray: '5,15',
         lineCap: 'square',
-        smoothFactor: 2
+        smoothFactor: 2,
+        clickable: 'false'
     };
 
     var polyline = new L.Polyline(polylinePoints, polylineOptions).addTo(mymap);
 {#    mymap.setView(polyline.getBounds());#}
     var {% for tag in tage %}
-    {% if not forloop.last %}{{ tag.ort }} = L.marker({{ tag.koordinateneckig }}).bindPopup("<a href='{{ tage.foto.url }}' class='swipebox'><img src='{{ tag.foto.url }}' style='width: 100px'/></a> {{ tag.beschreibung }}"),{% else %}{{ tag.ort }} = L.marker({{ tag.koordinateneckig }}).bindPopup("<a href='{{ tage.foto.url }}' class='swipebox'><img src='{{ tag.foto.url }}' style='width: 100px'/></a> {{ tag.beschreibung }}");{% endif %}{% endfor %}
-    var cities = L.layerGroup([{% for tag in tage %}{% if not forloop.last %}{{ tag.ort }},{% else %}{{ tag.ort }}{% endif %}{% endfor %}]).addTo(mymap);
+    {% if not forloop.last %}marker{{ tag.id }} = L.marker({{ tag.koordinateneckig }}).bindPopup("<a href='{{ tage.foto.url }}' class='swipebox'><img src='{{ tag.foto.url }}' style='width: 100px'/></a> {{ tag.beschreibung }}"),{% else %}marker{{ tag.id }} = L.marker({{ tag.koordinateneckig }}).bindPopup("<a href='{{ tage.foto.url }}' class='swipebox'><img src='{{ tag.foto.url }}' style='width: 100px'/></a> {{ tag.beschreibung }}");{% endif %}{% endfor %}
+    var cities = L.layerGroup([{% for tag in tage %}{% if not forloop.last %}marker{{ tag.id }},{% else %}marker{{ tag.id }}{% endif %}{% endfor %}]).addTo(mymap);
 }
 
 </script>

@@ -99,9 +99,9 @@ class Tag(TimeStampedModel):
     ort = models.CharField(max_length=50)
     reise = models.ForeignKey(Reise, models.CASCADE)
     reisedatum = models.ForeignKey(Termin, models.CASCADE, related_name='termine')
-    koordinaten = models.CharField(max_length=100, editable=False, )
-    koordinateneckig = models.CharField(max_length=100, editable=False, )
-
+    koordinaten = models.CharField(max_length=100)
+    koordinateneckig = models.CharField(max_length=100)
+    slug = models.CharField(max_length=200, editable=False)
 
     def __str__(self):
         datum = str(self.reisedatum)
@@ -109,13 +109,14 @@ class Tag(TimeStampedModel):
         kurzel = self.reise.reisekurzel
         return kurzel + ' Tag ' + tag
 
-    def save(self, *args, **kwargs):
-        # Nominatim ausgebaut
-        geolocator = GeoNames(username='yunusabd')
-        location = geolocator.geocode(self.ort)
-        self.koordinaten = location.latitude, location.longitude
-        self.koordinateneckig = [location.latitude, location.longitude]
-        super(Tag, self).save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     # Nominatim ausgebaut
+    #     geolocator = GeoNames(username='yunusabd')
+    #     location = geolocator.geocode(self.ort)
+    #     self.koordinaten = location.latitude, location.longitude
+    #     self.koordinateneckig = [location.latitude, location.longitude]
+    #     self.ort = uuslug(self.ort, instance=self)
+    #     super(Tag, self).save(*args, **kwargs)
 
     class Meta:
         verbose_name_plural = "Tage"

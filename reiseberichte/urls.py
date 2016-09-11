@@ -8,6 +8,8 @@ urlpatterns = [
     # /KRC001/
     #url(r'^(?P<reise_id>[0-9]+)/$', views.reiseseite, name='reiseseite'),
 
+    url(r'^tagkarte$', views.tagkarte, name="tagkarte"),
+
     url(r'^(?P<reise_slug>[-\w]+)/$', views.reiseseite, name='reiseseite'),
 
     # /china-mit-yangtze/161023

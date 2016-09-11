@@ -1,26 +1,104 @@
 {% extends 'reiseberichte/base.html' %}
+{% load staticfiles %}
+{% block includes %}
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
+<script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
+<script src="{% static 'reiseberichte/' %}js/Control.Geocoder.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'reiseberichte/' %}css/Control.Geocoder.css">
+
+
+<style>
+    #mapid { height: 380px;
+    display: block;}
+</style>
+{% endblock %}
 {% block body %}
     <div xmlns="http://www.w3.org/1999/html">
-        <a href="{% url 'terminseite' reise_slug=termin.reisename.slug termin_slug=termin.slug %}">Abbrechen</a>
-        <h1>Tag hinzufügen</h1>
-        <ul class="circle_list">
-            <li><strong>Reise: </strong> {{ termin.reisename.reisekurzel }} - {{ termin.reisename.reisename }}</li>
-            <li><strong>Termin: </strong>     {{ termin.reisebeginn }}</li>
-            <li><strong>Reiseleiter: </strong>     {{ termin.reiseleiter }}</li>
+        <div class="container">
+                    <div class="column">
+                        <a href="{% url 'terminseite' reise_slug=termin.reisename.slug termin_slug=termin.slug %}"><button class="button medium light">Abbrechen</button></a>
+                        <h1>Tag hinzufügen</h1>
+                        <ul class="circle_list">
+                            <li><strong>Reise: </strong> {{ termin.reisename.reisekurzel }} - {{ termin.reisename.reisename }}</li>
+                            <li><strong>Termin: </strong>     {{ termin.reisebeginn }}</li>
+                            <li><strong>Reiseleiter: </strong>     {{ termin.reiseleiter }}</li>
+                        </ul><br>
 
-        </ul><br>
-    </div>
     <form class="" action="" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        {% for field in form %}
-                <label class="label">{{ field.label_tag }}</label>
+    <label for="id_foto">Foto</label>
+        {{ form.foto }}<br><br>
+    <label for="id_beschreibung">Beschreibung</label>
+        {{ form.beschreibung }}<br>
+    <label for="id_reisetag">Reisetag</label>
+        {{ form.reisetag }}<br><br>
+     <label for="id_ort">Ort</label>
+       </div>
+</div>
+        <div class="container">
+        <div class="column">
+                {{ form.ort }}
+        </div>
+        <div class="column">
+            <button type="button"  class="button medium light" onclick="geocode();">Search</button>
+        </div>
+         <div class="one-third column">
+            <div id="mapid"></div>
+         </div>
+    </div>
+<br><br>
 
-                {{ field }}                <span class="text-danger">{{ field.errors }}</span>
+    <div class="column">
 
-            <br>
-        {% endfor %}
-                <button class="button medium light" type="submit">SPEICHERN</button>
 
+        {{ form.koordinaten.as_hidden }}
+        {{ form.koordinateneckig.as_hidden }}
+    <button class="button medium light" type="submit">SPEICHERN</button>
+</div>
+</div>
 
     </form>
+
+
+
+
+<script>
+
+onload = function myFunction() {
+    var mymap = L.map('mapid').setView([53.101303083333335, 8.8326435], 13);
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'yunusabd.10e370gg',
+        accessToken: 'pk.eyJ1IjoieXVudXNhYmQiLCJhIjoiY2lyYWR6dHBtMDA0b2llbm5venV6MGVtYyJ9.CRKwiTq3-z1p6TMqOs1Frg'
+    }).addTo(mymap);
+
+L.Control.geocoder().addTo(mymap);
+
+this.geocode = function () {
+{#    get input from field address #}
+    var input = document.getElementById('id_ort').value;
+    $.getJSON('http://www.mapquestapi.com/geocoding/v1/address?key=06O6330McgxlKyLhHXiZWZrkao0GSJhG&location=' + input + '&inFormat=json&adminArea1=CN', function  (response) {
+{#       get latitute and longitude from JSON response #}
+        var lat2 = response.results[0].locations[0].latLng.lat;
+        var lng2 = response.results[0].locations[0].latLng.lng;
+{#        set new marker #}
+        var markerneu = L.marker([lat2, lng2],{
+        draggable: true
+        }).addTo(mymap);
+
+{#        write response latlng to form fields #}
+        document.getElementById('id_koordinaten').value = "("+lat2+", "+lng2+")";
+        document.getElementById('id_koordinateneckig').value = "["+lat2+", "+lng2+"]";
+        mymap.fireEvent(mymap.setView([lat2, lng2], 10));
+        markerneu.on('dragend', function () {
+        document.getElementById('lat').value = markerneu.getLatLng().lat;
+        document.getElementById('lon').value = markerneu.getLatLng().lat;
+        });});
+    }
+};
+
+</script>
+
 {% endblock %}

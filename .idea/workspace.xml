@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="586c586f-b69b-4b23-862a-adaf246966df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tagkarte.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/forms.py" afterPath="$PROJECT_DIR$/reiseberichte/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/models.py" afterPath="$PROJECT_DIR$/reiseberichte/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" afterPath="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/urls.py" afterPath="$PROJECT_DIR$/reiseberichte/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reiseberichte/views.py" afterPath="$PROJECT_DIR$/reiseberichte/views.py" />
     </list>
     <ignored path="chinatours.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,35 +38,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="termine.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
+      <file leaf-file-name="tagkarte.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tagkarte.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="1672">
+              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="92" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reiseberichte/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reiseberichte/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
+            <state relative-caret-position="266">
+              <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <element signature="e#246#473#0" expanded="false" />
-                <element signature="e#511#1238#0" expanded="false" />
                 <element signature="e#1282#1476#0" expanded="false" />
                 <element signature="e#1478#1766#1" expanded="false" />
                 <element signature="e#1805#2936#0" expanded="false" />
@@ -68,24 +64,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinatours/settings.py">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reiseberichte/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="114">
+              <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinatours/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#226#235#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +77,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reiseberichte/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+            <state relative-caret-position="1273">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="58" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -102,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uebersicht.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/uebersicht.html">
+      <file leaf-file-name="termine.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+            <state relative-caret-position="57">
+              <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -115,8 +99,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2185">
-              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="-912">
+              <caret line="66" column="34" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="n#for#0;n#!!top" expanded="false" />
               </folding>
@@ -124,21 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strip.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/strip.css">
+      <file leaf-file-name="tag_form.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6764">
-              <caret line="356" column="112" selection-start-line="356" selection-start-column="112" selection-end-line="356" selection-end-column="112" />
+            <state relative-caret-position="390">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swipebox.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/swipebox.css">
+      <file leaf-file-name="skeleton.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/skeleton.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2470">
-              <caret line="130" column="33" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="33" />
+            <state relative-caret-position="-152">
+              <caret line="55" column="62" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -149,8 +133,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -162,13 +146,10 @@
       <list>
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/form-template.html" />
         <option value="$PROJECT_DIR$/reiseberichte/admin.py" />
-        <option value="$PROJECT_DIR$/reiseberichte/urls.py" />
         <option value="$PROJECT_DIR$/chinatours/urls.py" />
         <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/colors/yellow.css" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/index.html" />
-        <option value="$PROJECT_DIR$/reiseberichte/views.py" />
         <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/base.css" />
-        <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html" />
         <option value="$PROJECT_DIR$/static/reiseberichte/js/fancybox.js" />
         <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/style.css" />
         <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/js/template_functions.js" />
@@ -177,10 +158,15 @@
         <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/ilightbox.css" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/uebersicht.html" />
         <option value="$PROJECT_DIR$/chinatours/settings.py" />
+        <option value="$PROJECT_DIR$/reiseberichte/urls.py" />
+        <option value="$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/Control.Geocoder.css" />
+        <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tagkarte.html" />
         <option value="$PROJECT_DIR$/reiseberichte/forms.py" />
+        <option value="$PROJECT_DIR$/reiseberichte/views.py" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html" />
         <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html" />
         <option value="$PROJECT_DIR$/reiseberichte/models.py" />
+        <option value="$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html" />
       </list>
     </option>
   </component>
@@ -207,7 +193,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -220,13 +206,20 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jq" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -606,13 +599,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48294243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36302894" sideWeight="0.5469083" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36302894" sideWeight="0.5469083" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.7369614" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" x="915" y="325" width="800" height="688" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.5790646" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" x="915" y="390" width="924" height="558" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36302894" sideWeight="0.45309168" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36191538" sideWeight="0.45309168" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33964366" sideWeight="0.45255864" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -639,34 +632,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/reiseberichte/forms.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html</url>
+          <line>92</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#246#473#0" expanded="false" />
-            <element signature="e#511#1238#0" expanded="false" />
-            <element signature="e#1282#1476#0" expanded="false" />
-            <element signature="e#1478#1766#1" expanded="false" />
-            <element signature="e#1805#2936#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -678,9 +659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +727,6 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <element signature="e#246#473#0" expanded="false" />
-            <element signature="e#511#1238#0" expanded="false" />
             <element signature="e#1282#1476#0" expanded="false" />
             <element signature="e#1478#1766#1" expanded="false" />
             <element signature="e#1805#2936#0" expanded="false" />
@@ -767,9 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -844,26 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinatours/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="e#643#675#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -875,6 +831,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -892,30 +849,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/form-template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/skeleton.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/reiseberichte/js/fancybox.js" />
     <entry file="file://$PROJECT_DIR$/static/reiseberichte/js/isotope.js" />
     <entry file="file://$PROJECT_DIR$/static/reiseberichte/js/jquery.imagesloaded.js" />
-    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44194">
-          <caret line="2326" column="29" selection-start-line="2326" selection-start-column="29" selection-end-line="2326" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/js/jquery.swipebox.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -930,14 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/js/template_functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6669">
@@ -945,25 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4028">
-          <caret line="212" column="45" selection-start-line="212" selection-start-column="41" selection-end-line="212" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/ilightbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4028">
-          <caret line="212" column="14" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/strip.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6764">
           <caret line="356" column="112" selection-start-line="356" selection-start-column="112" selection-end-line="356" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2470">
           <caret line="130" column="33" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,9 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#226#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,54 +910,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/forms.py">
+    <entry file="file://$PROJECT_DIR$/chinatours/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="380">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html">
+    <entry file="file://$PROJECT_DIR$/reiseberichte/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <element signature="n#for#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/ilightbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4940">
+          <caret line="260" column="26" selection-start-line="260" selection-start-column="26" selection-end-line="260" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/Control.Geocoder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/form-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tagkarte.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="92" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        <state relative-caret-position="1273">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="75" selection-end-column="58" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reiseberichte/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="117" column="46" selection-start-line="117" selection-start-column="46" selection-end-line="117" selection-end-column="46" />
+        <state relative-caret-position="266">
+          <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <element signature="e#246#473#0" expanded="false" />
-            <element signature="e#511#1238#0" expanded="false" />
             <element signature="e#1282#1476#0" expanded="false" />
             <element signature="e#1478#1766#1" expanded="false" />
             <element signature="e#1805#2936#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/termine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="176" column="17" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="440" column="68" selection-start-line="440" selection-start-column="65" selection-end-line="440" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="n#for#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/static/reiseberichte/css/skeleton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="55" column="62" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reiseberichte/templates/reiseberichte/tag_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

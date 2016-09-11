@@ -25,6 +25,8 @@ def uebersicht(request):
                 }
     return render(request, 'reiseberichte/uebersicht.html', context)
 
+def tagkarte(request):
+    return render(request, 'reiseberichte/tagkarte.html')
 
 def reiseseite(request, reise_slug):
     reise = get_object_or_404(Reise, slug=reise_slug)
@@ -70,6 +72,8 @@ def add_day(request, reise_slug, termin_slug):
             reise = Reise.objects.get(slug=reise_slug)
             tag.reise = reise
             tag.reisedatum = termin
+            # tag.koordinaten = form.koordinaten
+            # tag.koordinateneckig = form.koordinateneckig
             tag.save()
             messages.success(request, "Tag hinzugefügt!")
             return redirect('terminseite', reise_slug=reise_slug, termin_slug=termin_slug)

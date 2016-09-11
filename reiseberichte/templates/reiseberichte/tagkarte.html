@@ -1,0 +1,124 @@
+{% extends 'reiseberichte/base.html' %}
+{% load staticfiles %}
+{% block includes %}
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
+<script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
+<script src="{% static 'reiseberichte/' %}js/Control.Geocoder.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'reiseberichte/' %}css/Control.Geocoder.css">
+
+
+<style>
+    #mapid { height: 380px;
+    display: block;}
+</style>
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+
+	<!-- start: Portfolio -->
+    <div class="isotope" style="position: relative; overflow: hidden; height: 1448px;" id="portfolio-wrapper" xmlns="http://www.w3.org/1999/html">
+
+    <form>
+      <label for="latitude">Latitude:</label>
+      <input id="latitude" type="text" />
+      <label for="longitude">Longitude:</label>
+      <input id="longitude" type="text" />
+    </form>
+
+<div id="suche">
+  <input type="text" name="address" value="" id="address" />
+  <button type="button" onclick="geocode();">Search</button>
+      <input type="text" name="lat" value="" id="lat" />
+          <input type="text" name="lon" value="" id="lon" />
+
+
+</div>
+
+ </div>
+
+</div>
+     <div tabindex="0" style="position: relative;" id="mapid"></div>
+
+                                <button type="button" id="myBtn">Default</button>
+ Script fuer Karte, Benutzen der GPS Angaben aus dem Exif muss noch eingebaut werden
+<script>
+
+onload = function myFunction() {
+    var polylinePoints = [
+    new L.LatLng(39.9075, 116.39723),
+    new L.LatLng(40.36397, 115.98511),
+    new L.LatLng(24.44449, 118.06664),
+    new L.LatLng(27.6644, 109.143)
+    ];
+    var mymap = L.map('mapid').setView([53.101303083333335, 8.8326435], 13);
+        mymap.fitBounds([polylinePoints]);
+
+
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'yunusabd.10e370gg',
+        accessToken: 'pk.eyJ1IjoieXVudXNhYmQiLCJhIjoiY2lyYWR6dHBtMDA0b2llbm5venV6MGVtYyJ9.CRKwiTq3-z1p6TMqOs1Frg'
+    }).addTo(mymap);
+
+    var polylineOptions = {
+        color: 'blue',
+        weight: 3,
+        opacity: 0.8,
+        dashArray: '5,15',
+        lineCap: 'square',
+        smoothFactor: 2,
+        clickable: 'false'
+    };
+
+    var polyline = new L.Polyline(polylinePoints, polylineOptions).addTo(mymap);
+
+    var
+    marker9 = L.marker([39.9075, 116.39723]).bindPopup("<a href='' class='swipebox'><img src='/media/csm_Tag_2_-_Der_Himmelstempel_f0a1f3e573_SX1qifQ.jpg' style='width: 100px'/></a> asd asd asdasd"),
+    marker10 = L.marker([40.36397, 115.98511]).bindPopup("<a href='' class='swipebox'><img src='/media/csm_Tag_3_-_Auf_der_chinesischen_Mauer_844df4ffc0_bJ6BFXS.jpg' style='width: 100px'/></a> sadf sdf dsf"),
+    marker11 = L.marker([24.44449, 118.06664]).bindPopup("<a href='' class='swipebox'><img src='/media/csm_Tag_13_-_Spaziergang_in_den_Gassen_auf_der_Insel_Gulangyu_4680b12294.jpg' style='width: 100px'/></a> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."),
+    marker13 = L.marker([27.6644, 109.143]).bindPopup("<a href='' class='swipebox'><img src='/media/csm_Tag_4_-_Auf_dem_Bahnsteig_vom_Beijinger_Hauptbahnhof_911761ef26_uryuWl7.jpg' style='width: 100px'/></a> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh");
+    var cities = L.layerGroup([marker9,marker10,marker11,marker13]).addTo(mymap);
+
+    var marker = L.marker([51.441767, 5.470247],{
+  draggable: true
+}).addTo(mymap);
+
+marker.on('dragend', function (e) {
+  document.getElementById('latitude').value = marker.getLatLng().lat;
+    document.getElementById('longitude').value = marker.getLatLng().lat;
+
+});
+
+L.Control.geocoder().addTo(mymap);
+
+this.geocode = function () {
+{#    get input from field address #}
+    var input = document.getElementById('address').value;
+    $.getJSON('http://www.mapquestapi.com/geocoding/v1/address?key=06O6330McgxlKyLhHXiZWZrkao0GSJhG&location=' + input + '&inFormat=json&adminArea1=CN', function  (response) {
+{#       get latitute and longitude from JSON response #}
+        var lat2 = response.results[0].locations[0].latLng.lat;
+        var lng2 = response.results[0].locations[0].latLng.lng;
+{#        set new marker #}
+        var markerneu = L.marker([lat2, lng2],{
+        draggable: true
+        }).addTo(mymap);
+{#        write response latlng to form fields #}
+        document.getElementById('lat').value = lat2;
+        document.getElementById('lon').value = lng2;
+        mymap.fireEvent(mymap.setView([lat2, lng2], 10))
+        });
+    }
+};
+
+
+
+</script>
+	<!-- end: Portfolio -->
+
+	<!-- end: Portfolio -->
+
+
+{% endblock %}
